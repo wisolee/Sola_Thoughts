@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!-- html doc start -->
+<html lang="en-US">
+    <head>
+        <title>Sola Thoughts</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <nav id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">About</a>
+            <a href="quotes.html">Inspiring Quotes</a>
+    </nav>
+
+    <body>
+        <header> 
+            <span id="menu_btn" onclick="openNav()">&#9776;</span>
+            <h1>Sola Thoughts</h1>
+        </header>
+
+        <article class="main">
+            <section>
+                <h2>About</h2>
+                <p>A dedicated place for Sola to declutter his mind
+                and organize his thoughts whether it be organizing
+                his schedule, creating grocery lists, or keeping 
+                track of inspiring quotes. This website has been
+                made during Sola's free time purely for his 
+                enjoyment.
+                </p>
+                <p class="quotes">
+                    "All we have to decide is what to do with
+                    the time that is given to us."<br />
+                    - <span class="author">Gandalf the Grey</span>
+                    </p>
+            </section>
+        </article>
+        <footer>
+            <div id="copyright">&copy; 2018 SolaThoughts Inc.</div>
+        </footer>
+        <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "15%";
+                }
+                
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+        </script>
+    </body>
+    <!-- body end -->
+</html>
+<!-- html doc end -->
